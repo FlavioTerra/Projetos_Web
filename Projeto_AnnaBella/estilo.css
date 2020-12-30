@@ -1,0 +1,38 @@
+body{
+    background: silver url('imagensProjeto/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: #1C333E;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 1.2em;
+    color: #3E4C29;
+}
+
+#Principal{
+    width: 900px;
+}
+
+#Navegacao{
+    background-color: #92AB6C;
+    padding: 18px;
+}
+
+#Conteudo{
+    background: #C2D6A3;
+    padding: 15px;
+}
+
+#Rodape{
+    text-align: center;
+}
+
+.Imagens{
+    border: 10px outset silver;
+}
