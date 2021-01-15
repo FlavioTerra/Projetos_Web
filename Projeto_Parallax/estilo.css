@@ -1,0 +1,88 @@
+/*
+ ----------------- Formatações Padrões ----------------- 
+*/
+
+body, html{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo{
+    text-align: justify;
+    background: #eee;
+    color: #777;
+    padding: 50px 80px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+/*
+ ----------------- Parallax ----------------- 
+*/
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+    height: 100%;
+    position: relative;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caixa1{
+    background-image: url(./imagens/imagem1.jpg);
+}
+
+.caixa2{
+    background-image: url(./imagens/imagem2.jpg);
+}
+
+.caixa3{
+    background-image: url(./imagens/imagem3.jpg);
+}
+
+.caixa4{
+    background-image: url(./imagens/imagem4.jpg);
+}
+
+.caixa5{
+    background-image: url(./imagens/imagem5.jpg);
+}
+
+.caixa6{
+    background-image: url(./imagens/imagem6.jpg);
+}
+
+/*
+ ----------------- Formatações Titulos ----------------- 
+*/
+
+.conteudo-titulo{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background: linear-gradient(to top right, #000, #555);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 35px;
+    font-weight: bold;
+}
